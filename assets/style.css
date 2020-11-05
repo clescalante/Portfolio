@@ -47,6 +47,7 @@ h3:hover {
 		width: 100%;
 		height: auto;
 		box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.05);
+		margin-bottom: 10px; 
 		
 }
 
@@ -98,11 +99,13 @@ h3 {
 	font-size: 15px; 
 	font-weight: 400;
 	color: black;
-	line-height: 35px;
+	line-height: 20px;
+	
 	letter-spacing: 1px;
 	font-family: neuzeit-grotesk, sans-serif;
 	display: inline;
 	border-bottom: 1px solid;
+	
 
 
 	
@@ -127,7 +130,7 @@ h5 {
 	font-family: neuzeit-grotesk, sans-serif;
 	line-height: 18px;
 	letter-spacing: 1px; 
-	margin-top: 0px; 
+	margin-top: 8px; 
 	
 }
 
