@@ -160,26 +160,19 @@ h6 {
 	font-family: neuzeit-grotesk, sans-serif;
 	color: black;
 	margin-top: 40px;
-	
-
+	position: relative; 
  }
-
-
-
 
 
 
 .header {
 
     letter-spacing: 1px;
-    position: fixed;
+    /*position: fixed;*/
     top: 10px;
     left: 100px;
     line-height: 0; 
     z-index: 1; 
-
-
-    
 }
 
 
