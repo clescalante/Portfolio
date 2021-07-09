@@ -16,7 +16,7 @@ body{
 
 	a:hover {
     /*text-decoration: underline;*/
-    color: #FFD700;
+    color: #f6a6bd;
     font-weight: 500; 
     /*cursor: pointer;*/
     /*border-bottom: 1px solid #FFD700;*/
@@ -58,11 +58,12 @@ h3:hover {
 
 .thumbnail:hover {
 	
-	opacity: 1; 
-	transition: .5s ease; 
-	filter: brightness(0);
+	opacity: .5; 
+	transition: .25s ease; 
+	/*filter: brightness(0);*/
 
 	}
+
 
 
 
@@ -153,13 +154,13 @@ h6 {
 
 
 #column1 { 
-	font-size: 30px; 
+	font-size: 40px; 
 	text-align: center; 
-	letter-spacing: 2px; 
+	letter-spacing: 3px; 
 	font-weight: 400; 
 	font-family: neuzeit-grotesk, sans-serif;
 	color: black;
-	margin-top: 40px;
+	margin-top: 100px;
 	position: relative; 
  }
 
@@ -182,27 +183,46 @@ h6 {
  
    color: black;
 
-   font-size: 16px; 
+   font-size: 18px; 
    font-family: neuzeit-grotesk, sans-serif;
    font-weight: 400;
    letter-spacing: .5px; 
 
-   text-align: center;
-   margin-top: 8px; 
+   text-align: left;
+   margin-top: 100px; 
+   margin-left: 15vw; 
+  
+   margin-right: 70vw; 
 
 
     
+}
+
+.doslenguas {
+	 color: black;
+
+   font-size: 18px; 
+   font-family: neuzeit-grotesk, sans-serif;
+   font-weight: 400;
+   letter-spacing: .5px; 
+
+   text-align: right;
+   margin-top: -20px; 
+   margin-right: 15vw; 
+   margin-left: 70vw; 
+
+
 }
 
 
 .index { 
 
 	font-family: neuzeit-grotesk, sans-serif;
-	font-size: 17px; 
+	font-size: 18px; 
     margin-top: 4px;
 	font-weight: 400; 
 	color: black;
-	letter-spacing: 1px; 
+	letter-spacing: 1.5px; 
 	text-align: center;
 
   
@@ -212,10 +232,10 @@ h6 {
 .container {
 	
 
- column-count: 5; 
-  margin-top: 4vw; 
-  margin-left: 2vw;
-  margin-right: 2vw;
+ column-count: 3; 
+  margin-top: 7vw; 
+  margin-left: 20vw;
+  margin-right: 20vw;
   position: relative;
   text-align: center; 
   column-gap: 3vw; 
@@ -243,12 +263,16 @@ h6 {
 
 .intro {
 	position: relative;
-	margin: 2vw 30vw 0vw 23vw; 
-	max-width: 800px;
+	/*margin: 2vw 30vw 0vw 23vw; */
+	/*max-width: 800px;*/
 	/*text-align: center;*/
 	alignment:center;
 
 	display: block;
+	text-align: center;
+	 margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
 }
 
@@ -293,7 +317,7 @@ h6 {
 	position:fixed; 
 	margin-left: 90vw;
 	margin-right: 5vw; 
-	margin-top: 20px; 
+	margin-top: -80px; 
 	background-clip:content-box;
 	border-radius: 100%;
 	font-family: neuzeit-grotesk, sans-serif;
@@ -306,20 +330,48 @@ h6 {
 }
 
 .images {
-	position: absolute;
-	padding-right: 7vw; 
+	/*position: absolute;*/
+	/* margin-left: 20vw;
+  margin-right: 20vw;*/
+  margin-top: 10vw; 
+
+	/*padding-right: 7vw; 
 	margin: 70px 100vw 0vw 5vw; 
 	vertical-align: top; 
-	display: block; 
+	display: block;*/ 
+ 
+
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
+.illust { 
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+   }
+
+
+.projectsheader {
+	margin-top: 50px; 
+	
+
+}
 
 .description {
-
-	position: absolute;
-	margin-left: 53vw;
+/*
+	position: absolute;*/
+	/*margin-left: 53vw;
 	margin-right: 10vw; 
-	margin-top: 75px; 
+	margin-top: 75px; */
+	text-align: center;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 	
 	
 
